@@ -1,0 +1,79 @@
+aid: polychain
+name: Polychain Capital
+description: >-
+  Polychain Capital is a San Francisco-based investment firm founded in 2016 by Olaf Carlson-Wee, the
+  first employee and former Head of Risk at Coinbase. The firm is dedicated exclusively to blockchain and
+  cryptocurrency, investing in protocols, digital tokens, and early-stage crypto companies through both a
+  liquid token hedge fund and dedicated venture capital vehicles. Polychain's thesis centers on digital
+  assets whose scarcity derives from mathematical and cryptographic properties, and its portfolio spans
+  layer-1 and layer-2 networks, DeFi, developer and cryptographic infrastructure, custody, exchanges,
+  zero-knowledge and privacy technology, AI-native crypto, and stablecoins. The firm has led notable
+  rounds including Uniswap, dYdX, Yellow Card, Arbitrum (Offchain Labs), Scroll, and EigenLayer, and its
+  venture funds are backed by LPs including Andreessen Horowitz, Sequoia Capital, Union Square Ventures,
+  and Founders Fund. Reported assets under management have ranged from roughly $2.6B to about $5B across
+  its funds; Polychain closed a $200M fourth venture fund in 2023 and employs a team of roughly 32 people
+  from its San Francisco headquarters.
+image: https://polychain.capital/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Crypto
+  - Blockchain
+  - Web3
+  - DeFi
+  - Infrastructure
+  - Layer 1
+  - Layer 2
+  - Seed
+  - Early Stage
+  - Digital Assets
+  - San Francisco
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://polychain.capital/
+  - type: Portfolio
+    url: https://jobs.polychain.capital
+  - type: Portfolio
+    url: portfolio/polychain-portfolio.yml
+  - type: Team
+    url: team/polychain-team.yml
+  - type: InvestmentThesis
+    url: https://polychain.capital/
+  - type: Jobs
+    url: https://boards.greenhouse.io/polychaincapital
+  - type: Jobs
+    url: https://jobs.polychain.capital
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/polychain-capital
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/polychain-capital
+  - type: Features
+    data:
+      - "Stage: Early-stage crypto companies, protocols, and liquid tokens (venture + hedge fund)"
+      - "Sectors: blockchain protocols, DeFi, layer-1/layer-2, crypto infrastructure, custody, exchanges, zero-knowledge/privacy, crypto AI, stablecoins"
+      - "Geography: Global; headquartered in the United States"
+      - "AUM: reported ~$2.6B-$5B across funds (press/self-reported, fluctuates with liquid token fund)"
+      - "Fund IV: $200M raised (2023)"
+      - "Team: ~32 people"
+      - "Founded: 2016"
+      - "Founder & CEO: Olaf Carlson-Wee (Coinbase's first employee)"
+      - "HQ: San Francisco, California, USA"
+    sources:
+      - https://polychain.capital/
+      - https://en.wikipedia.org/wiki/Polychain_Capital
+      - https://fortune.com/crypto/2023/07/18/crypto-vc-polychain-200-million-staff-shakeup/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Polychain Capital
+    url: https://polychain.capital/
