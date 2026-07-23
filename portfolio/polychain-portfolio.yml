@@ -3,9 +3,9 @@ method: searched
 source: https://jobs.polychain.capital
 summary:
   portfolio_total: 82
-  in_network: 15
-  api_providers: 12
-  missing: 67
+  in_network: 82
+  api_providers: 30
+  missing: 0
   stubs_created: 0
 companies:
 - name: =nil; Foundation
@@ -14,27 +14,30 @@ companies:
   sector: zk-infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nil-foundation
+  slug: nil-foundation
+  matched_by: domain
 - name: Acala
   url: https://acala.network
   description: Decentralized finance hub and stablecoin platform for the Polkadot ecosystem.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acala
+  slug: acala
+  matched_by: domain
 - name: Agoric
   url: https://agoric.com
   description: JavaScript smart-contract platform for building secure decentralized applications.
   sector: smart-contracts
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agoric
+  slug: agoric
+  matched_by: domain
 - name: Aleo
   url: https://aleo.org
   description: Platform for building fully private applications using zero-knowledge cryptography.
@@ -43,44 +46,48 @@ companies:
   source: https://jobs.polychain.capital
   slug: aleo
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Altonomy
   url: https://altonomy.com
   description: Crypto trading, advisory, and asset-management firm.
   sector: trading
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: altonomy
+  slug: altonomy
+  matched_by: domain
 - name: Anchorage Digital
   url: https://anchorage.com
   description: Federally chartered regulated digital-asset bank and custody platform.
   sector: custody
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anchorage-digital
+  in_network: true
+  is_api_provider: true
+  slug: anchorage
+  matched_by: domain
 - name: Anoma
   url: https://anoma.network
   description: Intent-centric architecture for decentralized applications.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anoma
+  slug: anoma
+  matched_by: name-slug
 - name: Ava Labs
   url: https://avalabs.org
   description: Team behind the Avalanche layer-1 blockchain network.
   sector: layer-1
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ava-labs
+  in_network: true
+  is_api_provider: true
+  slug: ava-labs
+  matched_by: domain
 - name: Axelar
   url: https://axelar.network
   description: Cross-chain communication network connecting blockchains.
@@ -97,45 +104,50 @@ companies:
   sector: ai-data
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bagel-labs
+  slug: bagel-labs
+  matched_by: domain
 - name: Bittensor
   url: https://bittensor.com
   description: Decentralized machine-learning network incentivizing AI model production.
   sector: ai
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bittensor
+  slug: bittensor
+  matched_by: domain
 - name: Blink Ledger Systems
   url: https://blink.net
   description: Ledger and payments infrastructure company.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blink-ledger-systems
+  in_network: true
+  is_api_provider: true
+  slug: blink-ledger-systems
+  matched_by: domain
 - name: Brevis
   url: https://brevis.network
   description: ZK coprocessor enabling data-driven, verifiable computation for smart contracts.
   sector: zk-coprocessor
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brevis
+  slug: brevis
+  matched_by: domain
 - name: Capsule Social
   url: https://capsule.social
   description: Decentralized social publishing and community platform (builder of DSCVR).
   sector: social
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: capsule-social
+  slug: capsule-social
+  matched_by: domain
 - name: Celestia Labs
   url: https://celestia.org
   description: Modular data-availability network for scalable blockchains.
@@ -152,9 +164,10 @@ companies:
   sector: layer-1
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celo-foundation
+  slug: celo
+  matched_by: domain
 - name: Clover
   url: https://clover.finance
   description: Cross-chain DeFi infrastructure and smart-contract platform.
@@ -181,9 +194,10 @@ companies:
   sector: token-platform
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coinlist
+  in_network: true
+  is_api_provider: true
+  slug: coinlist
+  matched_by: domain
 - name: Coinbase
   url: https://coinbase.com
   description: Publicly traded cryptocurrency exchange and financial-services platform.
@@ -200,9 +214,10 @@ companies:
   sector: defi
   status: dead
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cozy-finance
+  slug: cozy-finance
+  matched_by: domain
 - name: Crusoe
   url: https://crusoe.ai
   description: Vertically integrated AI and energy infrastructure company.
@@ -219,54 +234,60 @@ companies:
   sector: key-management
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cubist
+  in_network: true
+  is_api_provider: true
+  slug: cubist
+  matched_by: domain
 - name: DFINITY
   url: https://dfinity.org
   description: Foundation behind the Internet Computer blockchain.
   sector: layer-1
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dfinity
+  slug: dfinity
+  matched_by: domain
 - name: DSCVR
   url: https://dscvr.one
   description: Decentralized social network and content community platform.
   sector: social
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dscvr
+  slug: dscvr
+  matched_by: domain
 - name: DerivaDEX
   url: https://derivadex.com
   description: Decentralized derivatives exchange.
   sector: defi-derivatives
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: derivadex
+  in_network: true
+  is_api_provider: true
+  slug: derivadex
+  matched_by: domain
 - name: Dharma Labs
   url: https://dharma.io
   description: DeFi and lending protocol (acquired by OpenSea).
   sector: defi
   status: acquired
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dharma-labs
+  slug: dharma-labs
+  matched_by: domain
 - name: ETHGas
   url: https://ethgas.com
   description: Ethereum gas and blockspace markets infrastructure.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ethgas
+  slug: ethgas
+  matched_by: domain
 - name: Eclipse
   url: https://eclipse.xyz
   description: SVM-based Ethereum layer-2 rollup.
@@ -283,18 +304,20 @@ companies:
   sector: investment
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fbg-capital
+  slug: fbg-capital
+  matched_by: domain
 - name: Gauntlet
   url: https://gauntlet.xyz
   description: Financial modeling and risk-management platform for DeFi protocols.
   sector: risk-analytics
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gauntlet
+  in_network: true
+  is_api_provider: true
+  slug: gauntlet
+  matched_by: domain
 - name: Hologram
   description: Decentralized identity and reputation project.
   sector: identity
@@ -320,34 +343,38 @@ companies:
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinityswap
+  slug: infinityswap
+  matched_by: name-slug
 - name: Lattica
   description: Privacy and cryptography infrastructure project.
   sector: privacy
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lattica
+  slug: lattica
+  matched_by: name-slug
 - name: Level
   description: DeFi stablecoin and yield protocol.
   sector: stablecoin
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: level
+  slug: level
+  matched_by: name-slug
 - name: Linen App
   url: https://linen.app
   description: Self-custody smart-contract crypto wallet.
   sector: wallet
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linen-app
+  slug: linen-app
+  matched_by: domain
 - name: Liquity
   url: https://liquity.org
   description: Decentralized borrowing protocol issuing the LUSD stablecoin.
@@ -364,133 +391,147 @@ companies:
   sector: stablecoin
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: m0
+  in_network: true
+  is_api_provider: true
+  slug: m0
+  matched_by: domain
 - name: Mangata Finance
   url: https://mangata.finance
   description: App-specific DEX blockchain in the Polkadot ecosystem.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mangata-finance
+  slug: mangata-finance
+  matched_by: domain
 - name: Manta Network
   url: https://manta.network
   description: Modular layer-2 network for zero-knowledge applications.
   sector: layer-2
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manta-network
+  slug: manta-network
+  matched_by: domain
 - name: Maple Finance
   url: https://maple.finance
   description: Institutional on-chain lending and credit marketplace.
   sector: defi-lending
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maple-finance
+  slug: maple-finance
+  matched_by: domain
 - name: Matrixport
   url: https://matrixport.com
   description: Digital-asset financial-services platform.
   sector: financial-services
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: matrixport
+  in_network: true
+  is_api_provider: true
+  slug: matrixport
+  matched_by: name-slug
 - name: Merico
   url: https://merico.dev
   description: Developer analytics and engineering-metrics platform.
   sector: dev-tools
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merico
+  slug: merico
+  matched_by: name-slug
 - name: Moola
   url: https://moola.market
   description: Non-custodial lending and borrowing protocol on Celo.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moola
+  slug: moola
+  matched_by: domain
 - name: MyCrypto
   url: https://mycrypto.com
   description: Ethereum wallet and interface (merged with MyEtherWallet).
   sector: wallet
   status: acquired
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mycrypto
+  slug: mycrypto
+  matched_by: domain
 - name: Noble
   url: https://noble.xyz
   description: Native asset-issuance chain in the Cosmos ecosystem.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noble
+  slug: noble
+  matched_by: name-slug
 - name: Nym Technologies
   url: https://nymtech.net
   description: Privacy infrastructure and mixnet for network-level anonymity.
   sector: privacy
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nym-technologies
+  in_network: true
+  is_api_provider: true
+  slug: nym-technologies
+  matched_by: domain
 - name: Oasis Labs
   url: https://oasislabs.com
   description: Privacy-preserving data and computation platform.
   sector: privacy-data
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oasis-labs
+  slug: oasis-labs
+  matched_by: domain
 - name: Offchain Labs
   url: https://offchainlabs.com
   description: Team behind Arbitrum Ethereum layer-2 scaling solutions.
   sector: layer-2
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offchain-labs
+  slug: offchain-labs-arbitrum
+  matched_by: domain
 - name: Orca
   url: https://orca.so
   description: Decentralized exchange and automated market maker on Solana.
   sector: defi-dex
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orca
+  in_network: true
+  is_api_provider: true
+  slug: orca
+  matched_by: domain
 - name: Overlay
   url: https://overlay.market
   description: Protocol for trading on data streams without counterparties.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: overlay
+  in_network: true
+  is_api_provider: true
+  slug: overlay
+  matched_by: domain
 - name: Parity Technologies
   url: https://parity.io
   description: Core developer of Polkadot and Substrate blockchain frameworks.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  slug: polkadot
+  slug: kusama
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -500,27 +541,30 @@ companies:
   sector: analytics
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parsec-finance
+  slug: parsec-finance
+  matched_by: domain
 - name: Perennial Labs
   url: https://perennial.finance
   description: Decentralized derivatives and synthetics protocol.
   sector: defi-derivatives
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perennial-labs
+  slug: perennial-labs
+  matched_by: domain
 - name: Pine Street Labs
   url: https://pinestreetlabs.com
   description: Institutional staking and blockchain infrastructure.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pine-street-labs
+  slug: pine-street-labs
+  matched_by: domain
 - name: Polymarket
   url: https://polymarket.com
   description: Decentralized information and prediction-markets platform.
@@ -536,53 +580,59 @@ companies:
   sector: fintech
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ponto
+  slug: ponto
+  matched_by: name-slug
 - name: Potion Labs
   description: DeFi options and derivatives protocol.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: potion-labs
+  slug: potion-labs
+  matched_by: name-slug
 - name: Quai Network
   url: https://qu.ai
   description: Proof-of-work layer-1 blockchain with merged-mined sharding.
   sector: layer-1
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quai-network
+  slug: quai-network
+  matched_by: domain
 - name: Ritual
   url: https://ritual.net
   description: Decentralized AI infrastructure and sovereign compute network.
   sector: ai-infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritual
+  slug: ritual
+  matched_by: name-slug
 - name: River Financial
   url: https://river.com
   description: Bitcoin-focused financial-services and brokerage platform.
   sector: bitcoin-services
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: river-financial
+  slug: river-financial
+  matched_by: domain
 - name: SHRAPNEL
   url: https://shrapnel.com
   description: AAA blockchain-based first-person shooter game.
   sector: gaming
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shrapnel
+  slug: shrapnel
+  matched_by: domain
 - name: Scroll
   url: https://scroll.io
   description: zkEVM Ethereum layer-2 scaling network.
@@ -599,140 +649,156 @@ companies:
   sector: wallet-infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sequence
+  in_network: true
+  is_api_provider: true
+  slug: sequence
+  matched_by: domain
 - name: Shipyard Software
   url: https://shipyardsoftware.org
   description: Builder of the Clipper decentralized exchange.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shipyard-software
+  slug: shipyard-software
+  matched_by: domain
 - name: Sona
   description: Crypto trading and DeFi application.
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sona
+  slug: sona
+  matched_by: name-slug
 - name: Structure
   description: On-chain structured products and financial platform.
   sector: fintech
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: structure
+  slug: structure
+  matched_by: name-slug
 - name: Superform
   url: https://superform.xyz
   description: Onchain yield marketplace aggregating DeFi vaults.
   sector: defi-yield
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: superform
+  in_network: true
+  is_api_provider: true
+  slug: superform
+  matched_by: domain
 - name: SynFutures
   url: https://synfutures.com
   description: Decentralized derivatives and perpetuals exchange.
   sector: defi-derivatives
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: synfutures
+  in_network: true
+  is_api_provider: true
+  slug: synfutures
+  matched_by: domain
 - name: Taiyaki Studios
   description: DeFi and NFT product studio.
   sector: defi-nft
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taiyaki-studios
+  slug: taiyaki-studios
+  matched_by: name-slug
 - name: Talus Network
   url: https://talus.network
   description: Blockchain layer for autonomous on-chain AI agents.
   sector: ai-blockchain
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: talus-network
+  slug: talus-network
+  matched_by: domain
 - name: Tendermint
   url: https://tendermint.com
   description: Core developer of the Cosmos SDK and Tendermint consensus.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tendermint
+  in_network: true
+  is_api_provider: true
+  slug: tendermint
+  matched_by: domain
 - name: Thesis
   url: https://thesis.co
   description: Crypto venture studio behind tBTC, Keep, Fold, and Taho.
   sector: crypto-studio
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thesis
+  slug: thesis
+  matched_by: name-slug
 - name: Valora
   url: https://valora.xyz
   description: Mobile crypto wallet and payments app on Celo.
   sector: wallet
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
-  is_api_provider: false
-  suggested_slug: valora
+  in_network: true
+  is_api_provider: true
+  slug: valora
+  matched_by: domain
 - name: VeryAI
   description: AI applications and infrastructure company.
   sector: ai
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veryai
+  slug: veryai
+  matched_by: name-slug
 - name: Web3 Foundation
   url: https://web3.foundation
   description: Foundation supporting Polkadot and decentralized web protocols.
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: web3-foundation
+  slug: web3-foundation
+  matched_by: domain
 - name: Webb Protocol
   url: https://webb.tools
   description: Cross-chain privacy and zero-knowledge interoperability protocol.
   sector: privacy
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: webb-protocol
+  slug: webb-protocol
+  matched_by: domain
 - name: Wynd Network
   url: https://wynd.network
   description: Decentralized web-scraping and data network (Grass).
   sector: depin
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wynd-network
+  slug: wynd-network
+  matched_by: name-slug
 - name: Yellow Card
   url: https://yellowcard.io
   description: Pan-African cryptocurrency exchange and payments platform.
   sector: exchange
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellow-card
+  slug: yellow-card
+  matched_by: domain
 - name: dYdX
   url: https://dydx.exchange
   description: Decentralized perpetuals and derivatives exchange.
@@ -749,6 +815,7 @@ companies:
   sector: zk-layer-1
   status: active
   source: https://jobs.polychain.capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: o1labs
+  slug: o1labs
+  matched_by: domain

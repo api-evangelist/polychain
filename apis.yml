@@ -13,6 +13,17 @@ description: >-
   and Founders Fund. Reported assets under management have ranged from roughly $2.6B to about $5B across
   its funds; Polychain closed a $200M fourth venture fund in 2023 and employs a team of roughly 32 people
   from its San Francisco headquarters.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://polychain.capital/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
