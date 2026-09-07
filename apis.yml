@@ -57,6 +57,10 @@ tags:
   - North America
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/polychain-domain-security.yml
+  - type: Careers
+    url: https://jobs.polychain.capital
   - type: Website
     url: https://polychain.capital/
   - type: Portfolio
