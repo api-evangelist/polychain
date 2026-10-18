@@ -3,9 +3,9 @@ method: searched
 source: https://jobs.polychain.capital
 summary:
   portfolio_total: 82
-  in_network: 82
-  api_providers: 30
-  missing: 0
+  in_network: 75
+  api_providers: 27
+  missing: 7
   stubs_created: 0
 companies:
 - name: =nil; Foundation
@@ -224,7 +224,7 @@ companies:
   sector: ai-infrastructure
   status: active
   source: https://jobs.polychain.capital
-  slug: crusoe-energy
+  slug: crusoe
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -335,7 +335,7 @@ companies:
   source: https://jobs.polychain.capital
   slug: hyperbolic
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: InfinitySwap
   url: https://infinityswap.one
@@ -343,10 +343,10 @@ companies:
   sector: defi
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: infinityswap
-  matched_by: name-slug
+  x-name-collision: infinityswap
+  suggested_slug: infinityswap-one
 - name: Lattica
   description: Privacy and cryptography infrastructure project.
   sector: privacy
@@ -431,20 +431,20 @@ companies:
   sector: financial-services
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
-  is_api_provider: true
-  slug: matrixport
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: matrixport
+  suggested_slug: matrixport-com
 - name: Merico
   url: https://merico.dev
   description: Developer analytics and engineering-metrics platform.
   sector: dev-tools
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: merico
-  matched_by: name-slug
+  x-name-collision: merico
+  suggested_slug: merico-dev
 - name: Moola
   url: https://moola.market
   description: Non-custodial lending and borrowing protocol on Celo.
@@ -471,10 +471,10 @@ companies:
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: noble
-  matched_by: name-slug
+  x-name-collision: noble
+  suggested_slug: noble-xyz
 - name: Nym Technologies
   url: https://nymtech.net
   description: Privacy infrastructure and mixnet for network-level anonymity.
@@ -531,10 +531,9 @@ companies:
   sector: infrastructure
   status: active
   source: https://jobs.polychain.capital
-  slug: kusama
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
+  in_network: false
+  is_api_provider: false
+  suggested_slug: parity-technologies
 - name: Parsec Finance
   url: https://parsec.fi
   description: On-chain analytics and trading dashboard platform.
@@ -736,10 +735,10 @@ companies:
   sector: crypto-studio
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: thesis
-  matched_by: name-slug
+  x-name-collision: thesis
+  suggested_slug: thesis-co
 - name: Valora
   url: https://valora.xyz
   description: Mobile crypto wallet and payments app on Celo.
@@ -785,10 +784,10 @@ companies:
   sector: depin
   status: active
   source: https://jobs.polychain.capital
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: wynd-network
-  matched_by: name-slug
+  x-name-collision: wynd-network
+  suggested_slug: wynd-network
 - name: Yellow Card
   url: https://yellowcard.io
   description: Pan-African cryptocurrency exchange and payments platform.
@@ -817,5 +816,5 @@ companies:
   source: https://jobs.polychain.capital
   in_network: true
   is_api_provider: false
-  slug: o1labs
+  slug: o1-labs
   matched_by: domain

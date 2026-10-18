@@ -1,4 +1,53 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: polychain
-leads: []
+leads:
+- name: InfinitySwap
+  url: https://infinityswap.one
+  suggested_slug: infinityswap-one
+  sector: defi
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Matrixport
+  url: https://matrixport.com
+  suggested_slug: matrixport-com
+  sector: financial-services
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Merico
+  url: https://merico.dev
+  suggested_slug: merico-dev
+  sector: dev-tools
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Noble
+  url: https://noble.xyz
+  suggested_slug: noble-xyz
+  sector: infrastructure
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Parity Technologies
+  url: https://parity.io
+  suggested_slug: parity-technologies
+  sector: infrastructure
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Thesis
+  url: https://thesis.co
+  suggested_slug: thesis-co
+  sector: crypto-studio
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
+- name: Wynd Network
+  url: https://wynd.network
+  suggested_slug: wynd-network
+  sector: depin
+  source_vc: polychain
+  source: https://jobs.polychain.capital
+  stub_created: false
