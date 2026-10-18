@@ -326,7 +326,9 @@ companies:
   slug: hologram
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hologram.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hyperbolic
   url: https://hyperbolic.xyz
   description: Decentralized GPU compute and AI inference marketplace.
@@ -345,8 +347,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: infinityswap
   suggested_slug: infinityswap-one
+  x-name-collision: infinityswap
 - name: Lattica
   description: Privacy and cryptography infrastructure project.
   sector: privacy
@@ -355,7 +357,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lattica
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lattica.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Level
   description: DeFi stablecoin and yield protocol.
   sector: stablecoin
@@ -364,7 +368,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: level
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.level.money/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Linen App
   url: https://linen.app
   description: Self-custody smart-contract crypto wallet.
@@ -433,8 +439,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: matrixport
   suggested_slug: matrixport-com
+  x-name-collision: matrixport
 - name: Merico
   url: https://merico.dev
   description: Developer analytics and engineering-metrics platform.
@@ -443,8 +449,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: merico
   suggested_slug: merico-dev
+  x-name-collision: merico
 - name: Moola
   url: https://moola.market
   description: Non-custodial lending and borrowing protocol on Celo.
@@ -473,8 +479,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: noble
   suggested_slug: noble-xyz
+  x-name-collision: noble
 - name: Nym Technologies
   url: https://nymtech.net
   description: Privacy infrastructure and mixnet for network-level anonymity.
@@ -583,6 +589,7 @@ companies:
   is_api_provider: false
   slug: ponto
   matched_by: name-slug
+  x-url-candidate: https://ponto.com
 - name: Potion Labs
   description: DeFi options and derivatives protocol.
   sector: defi
@@ -591,7 +598,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: potion-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://potion.fi/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Quai Network
   url: https://qu.ai
   description: Proof-of-work layer-1 blockchain with merged-mined sharding.
@@ -670,7 +679,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sona
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sona.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Structure
   description: On-chain structured products and financial platform.
   sector: fintech
@@ -679,7 +690,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: structure
-  matched_by: name-slug
+  matched_by: domain
+  url: https://structure.fi/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Superform
   url: https://superform.xyz
   description: Onchain yield marketplace aggregating DeFi vaults.
@@ -708,7 +721,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: taiyaki-studios
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.taiyakistudios.com/en/home
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Talus Network
   url: https://talus.network
   description: Blockchain layer for autonomous on-chain AI agents.
@@ -737,8 +752,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: thesis
   suggested_slug: thesis-co
+  x-name-collision: thesis
 - name: Valora
   url: https://valora.xyz
   description: Mobile crypto wallet and payments app on Celo.
@@ -786,8 +801,8 @@ companies:
   source: https://jobs.polychain.capital
   in_network: false
   is_api_provider: false
-  x-name-collision: wynd-network
   suggested_slug: wynd-network
+  x-name-collision: wynd-network
 - name: Yellow Card
   url: https://yellowcard.io
   description: Pan-African cryptocurrency exchange and payments platform.
